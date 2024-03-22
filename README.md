@@ -17,6 +17,7 @@ The model architecture used is ResNet34, which is a variant of the ResNet (Resid
 - Python 3.x
 - PyTorch
 - torchvision
+- Intel's extension for pandas, pytorch and scikit-learn
 - NumPy
 - Matplotlib
 - Pandas
