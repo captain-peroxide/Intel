@@ -6,7 +6,7 @@ This project aims to detect diabetic retinopathy in retinal images using the Res
 
 The dataset used for training and testing the model is the Kaggle Diabetic Retinopathy Detection dataset, which contains a large number of high-resolution retinal images labeled with diabetic retinopathy severity levels.
 
-- **Dataset Link:** [Kaggle Diabetic Retinopathy Detection](https://www.kaggle.com/c/diabetic-retinopathy-detection)
+- **Dataset Link:** [Kaggle Diabetic Retinopathy Detection]((https://www.kaggle.com/competitions/aptos2019-blindness-detection/data))
 
 ## Model Architecture
 
@@ -24,5 +24,27 @@ The model architecture used is ResNet34, which is a variant of the ResNet (Resid
 
 Install the required libraries using the following command:
 
-```bash
-pip install torch torchvision numpy matplotlib pandas jupyter
+## Usage
+
+1. **Data Preparation:** Download the Kaggle Diabetic Retinopathy Detection dataset and organize it into training and testing folders. Make sure to preprocess the images as necessary (e.g., resizing, normalization).
+
+2. **Training:** Run the provided Jupyter Notebook or Python script to train the ResNet34 model on the prepared dataset. Adjust hyperparameters such as learning rate, batch size, and number of epochs as needed.
+
+3. **Evaluation:** Evaluate the trained model on a separate test set to measure its performance in detecting diabetic retinopathy.
+
+## Files Included
+
+- `README.md`: Overview and instructions for the project.
+- `Blindness_detection.ipynb`: Jupyter Notebook containing the code for data preprocessing, model training, evaluation, and deployment.
+- `EDA.ipynb`: Jupyter Notebook containing the code for data visulaization and analysis.
+
+## Credits
+
+- ResNet34 architecture: [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) by Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun.
+- Kaggle Diabetic Retinopathy Detection dataset: [Kaggle](https://www.kaggle.com/c/diabetic-retinopathy-detection)
+- PyTorch documentation: [PyTorch](https://pytorch.org/docs/stable/index.html)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE]([LICENSE](https://github.com/captain-peroxide/Intel/blob/main/LICENSE)https://github.com/captain-peroxide/Intel/blob/main/LICENSE) file for details.
+
