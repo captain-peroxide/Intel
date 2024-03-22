@@ -6,7 +6,7 @@ This project aims to detect diabetic retinopathy in retinal images using the Res
 
 The dataset used for training and testing the model is the Kaggle Diabetic Retinopathy Detection dataset, which contains a large number of high-resolution retinal images labeled with diabetic retinopathy severity levels.
 
-- **Dataset Link:** [Kaggle Diabetic Retinopathy Detection]((https://www.kaggle.com/competitions/aptos2019-blindness-detection/data))
+- **Dataset Link:** [Kaggle Diabetic Retinopathy Detection](https://www.kaggle.com/competitions/aptos2019-blindness-detection/data)
 
 ## Model Architecture
 
@@ -42,10 +42,18 @@ Install the required libraries using the following command:
 ## Credits
 
 - ResNet34 architecture: [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) by Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun.
-- Kaggle Diabetic Retinopathy Detection dataset: [Kaggle](https://www.kaggle.com/c/diabetic-retinopathy-detection)
+- Kaggle Diabetic Retinopathy Detection dataset: [Kaggle](https://www.kaggle.com/competitions/aptos2019-blindness-detection/data)
 - PyTorch documentation: [PyTorch](https://pytorch.org/docs/stable/index.html)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE]([LICENSE](https://github.com/captain-peroxide/Intel/blob/main/LICENSE)https://github.com/captain-peroxide/Intel/blob/main/LICENSE) file for details.
+
+## TEAM
+
+Team Members-
+- Pushpendra Singh [LINK](https://github.com/PushpendraReboot) (LEADER)
+- Shailesh Kumar [LINK](https://github.com/captain-peroxide)
+- Raj Anand [LINK](https://github.com/Rajgithub42)
+- Piyush Chachan [LINK](https://github.com/Piyush-chachan)
 
